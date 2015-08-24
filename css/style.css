@@ -1,0 +1,50 @@
+/* rgb(44, 62, 80) /* Midnightblue*/
+/* rgb(236, 240, 241) /*Clouds*/
+/* rgb(189, 195, 199) /*Silver*/
+
+body{
+	background-color: rgb(44, 62, 80);
+	color: rgb(236, 240, 241);
+}
+
+p{
+	font-size: 16px;
+}
+
+a:hover,
+a:focus {
+  	text-decoration: none;
+  	color: rgb(189, 195, 199);
+}
+
+a {
+	color: rgb(149, 165, 166);
+}
+
+.container{
+	padding-left: 10em;
+	padding-right: 10em; 
+	margin-top: 5em;
+	margin-bottom: 5em;	
+}
+
+.about,
+.contact,
+.projects{
+	text-align: left;
+}
+
+.img-circle{
+	width: 220px;
+	height: 220px;
+	text-align: left;
+}
+
+#tAbout{
+	font-size: 18px;
+}
+
+#txt{
+	margin-top: 0.5px;
+	margin-bottom: 0.5px;
+}
