@@ -40,6 +40,11 @@ a {
 	text-align: left;
 }
 
+.img-rounded{
+	width: 40%;
+	height: 40%;
+}
+
 #tAbout{
 	font-size: 18px;
 }
