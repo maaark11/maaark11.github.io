@@ -2,7 +2,7 @@
 /* rgb(236, 240, 241) /*Clouds*/
 /* rgb(189, 195, 199) /*Silver*/
 
-body{
+body {
 	background-color: rgb(44, 62, 80);
 	color: rgb(236, 240, 241);
 }
@@ -11,8 +11,15 @@ body{
     transition: all 0.5s ease; 
 }  
 
-p{
-	font-size: 16px;
+p {
+	font-size: 1.2em;
+}
+
+h4 {
+	margin-top: none;
+	text-align: left;
+	padding-top: 1em;
+	display: block; 
 }
 
 a:hover,
@@ -25,35 +32,55 @@ a {
 	color: rgb(149, 165, 166);
 }
 
-.container{
+.row {
+	padding: 1em;
+}
+
+.container {
 	padding-left: 5em;
 	padding-right: 5em; 
 	margin-top: 5em;
 	margin-bottom: 5em;	
 }
 
-.knowledgment,
-.about,
-.contact,
-.projects{
-	text-align: left;
+.things > td {
+	padding: 1em;
 }
 
-.projects{
+.profile,
+.knowledgment,
+.projects,
+.contact,
+.social {
+	text-align: left;
+	padding-top: 2em;	
+}
+
+.about {
+	padding-left: 5em;
+}
+
+.img-responsive,
+.img-responsive2 {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.social {
+	display: inline-block;
+}
+
+.projects {
 	vertical-align: middle;
 }
 
-.img-circle{
-	width: 100%;
-	height: 100%;
+#tAbout {
+	font-size: 1em;
 }
 
-#tAbout{
-	font-size: 18px;
-}
-
-#txt{
-	margin-top: 0.5px;
-	margin-bottom: 0.5px;
+#txt {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
 }
 
